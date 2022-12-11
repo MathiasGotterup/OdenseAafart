@@ -1,5 +1,23 @@
 
-
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 22px;
+  }
+  
+  #forsideBanner {
+    position:fixed;
+    min-width: 100%; 
+    min-height: 30%;
+  }
+  
+  .navbar {
+    position: fixed;
+    margin: 100px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 .logo-image{
   width: 46px;
   height: 46px;
@@ -8,7 +26,6 @@
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +33,7 @@
 
 /* Links inside the navbar */
 .navbar a {
-  font-size: 16px;
+  font-size: 22px;
   color: white;
   text-align: center;
   padding: 14px 30px;
@@ -31,7 +48,7 @@
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   outline: none;
   color: white;
@@ -59,7 +76,6 @@
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
