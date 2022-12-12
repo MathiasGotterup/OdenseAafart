@@ -10,8 +10,10 @@ body{
 
 h4
 {
-    border-bottom:1px solid #CCC;
-    padding-bottom:3px;
+    border-bottom:3px solid white;
+    padding-bottom: 0.5em;
+    font: bolder;
+
 }
 
 .row{
@@ -21,17 +23,22 @@ h4
 ul{
 	list-style: none;
 }
+
+.footer_grap{
+    background-color: rgb(183, 217, 225);
+}
+
 .footer{
-	background-color: rgb(51, 51, 180);
+	background-color: rgb(43, 109, 133);
 }
 .footer-col{
-   padding: 0 55px;
-   margin-top: 40px;
+   padding: 0 1em;
+   margin-top: 3em;
 }
 .footer-col h4, h5{
 	font-size: 18px;
 	color: #ffffff;
-	margin-bottom: 10px;
+	margin-bottom: 0.5em;
 	font-weight: 500;
 	position: relative;
 }
@@ -43,16 +50,12 @@ ul{
 	font-size: 16px;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: white;
 	display: block;
-	transition: all 0.3s ease;
 }
-form {
-    font-family: Arial;
-  }
   
   .nyhedsbrev {
-    color: rgb(51, 51, 180);
+    color: rgb(43, 109, 133);
   }
   
   input[type=text], input[type=submit] {
@@ -60,7 +63,8 @@ form {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    box-sizing: border-box;
+    color: white;
+    border: 0;
   }
   
   input[type=checkbox] {
@@ -68,7 +72,7 @@ form {
   }
   
   input[type=submit] {
-    background-color: red;
+    background-color: #94382a;
   } 
   
   .sociale_medier {
@@ -80,3 +84,10 @@ form {
   {
     margin-top: 40px;
   }
+
+  .persondata{
+    background-color:rgb(183, 217, 225);
+    text-align: center;
+  }
+  
+  
