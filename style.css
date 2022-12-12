@@ -29,18 +29,20 @@ html {
 }
 
 .ikoner-top {
-    background-color: mediumseagreen;
+    background-color: #ffffff;
     margin: 0 70px 0 70px;
 }
 
 .ikon {
-    background-color: #ffffff;
+    background-color: #b7d9e1;
     margin: 30px 0 30px 0;
     color: #94382a;
+    text-align: center;
+    padding: 1em;
 }
 
 .information {
-    background-color: greenyellow;
+    background-color: #2b6d85;
     margin: 0 70px 0 70px;
 }
 
@@ -88,4 +90,52 @@ html {
   transition: max-height 0.2s ease-out;
   background-color: #b7d9e1;
   color: #2b6d85;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    margin: 0%;
+    float: left;
+    width: 48%;
+    padding: 0.2rem;
+    height: 100%; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column2 {
+    margin: 0;
+    float: right;
+    width: 48%;
+    padding: 0.2rem;
+    height: 100%; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Create three equal columns that floats next to each other */
+.ikon-column {
+    float: left;
+    width: 33.33%;
+    height: 100%; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .ikon-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.ikon-img {
+    width: 4.375em;
+    height: 4.375em;
 }
