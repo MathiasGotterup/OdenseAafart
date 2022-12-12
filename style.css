@@ -1,21 +1,15 @@
 
 body {
-    margin: 0;
+    margin: auto;
     font-family: Arial;
     font-size: 22px;
   }
   
   #forsideBanner {
-    position:fixed;
-    min-width: 100%; 
-    min-height: 30em;
-  }
-  
-  .navbar {
-    position: fixed;
-    color: #f1f1f1;
     width: 100%;
+    z-index: -1;
   }
+
  .logo{
     width: 15em;
     height: 5em;
@@ -24,22 +18,23 @@ body {
   }
   /* Navbar container */
   .navbar {
+    position: absolute;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     font-family: Open Sans;
-    padding: 1em;
+    z-index: 999;
   }
   
   /* Links inside the navbar */
   .navbar a {
-    font-size: 13px;
+    font-size: 22px;
     color: white;
     text-align: center;
-    padding: 0 1em;
+    padding: 0 2em;
     text-decoration: none;
-    
   }
   
   /* The dropdown container */
@@ -49,7 +44,7 @@ body {
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 13px;
+    font-size: 22px;
     border: none;
     outline: none;
     color: white;
@@ -58,9 +53,7 @@ body {
     font-family: inherit;
     margin: 0; 
   }
-  
 
-  
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
@@ -93,6 +86,7 @@ body {
    width: 1.6em;
    height: 1.2em;   
   }
+
   .button {
       border: none;
       color: white;
@@ -105,3 +99,7 @@ body {
       margin: 2px 1px;
       cursor: pointer;
     }
+
+.overgang{
+width: 100%;
+}
