@@ -1,9 +1,10 @@
 
 
-.logo-image{
-    width: 46px;
-    height: 46px;
+.logo{
+    width: 15em;
+    height: 5em;
     overflow: hidden;
+    margin-right: 100px;
   }
   /* Navbar container */
   .navbar {
@@ -12,14 +13,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Open Sans;
+    padding: 1em;
   }
   
   /* Links inside the navbar */
   .navbar a {
-    font-size: 16px;
+    font-size: 13px;
     color: white;
     text-align: center;
-    padding: 14px 30px;
+    padding: 0 1em;
     text-decoration: none;
     
   }
@@ -31,20 +34,17 @@
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 13px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 0px 0.5em;
     background-color: inherit;
     font-family: inherit;
     margin: 0; 
   }
   
-  /* Add a color background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    color: grey;
-  }
+
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
@@ -76,17 +76,18 @@
   }
   
   .sprog{
-   width: 35px;
-   height: 25px;   
+   width: 1.6em;
+   height: 1.2em;   
   }
   .button {
       border: none;
-      background-color: red;
+      color: white;
+      background-color: #94382a;
       padding: 12px 32px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 13px;
       margin: 2px 1px;
       cursor: pointer;
     }
