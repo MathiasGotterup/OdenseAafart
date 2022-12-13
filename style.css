@@ -6,20 +6,38 @@ body {
     background-color: rgb(183, 217, 225);
   }
   
-
-.grid-container{
-  
-}
-
-
+  .grid-container1{
+  display: grid;
+  grid-template-areas:
+  'header'
+  'main'
+  'footer';
+  }
 
 h1{
   text-align: center;
+  grid-area: main;
+  z-index: 10;
+  grid-column: 1/2;
+  color: white;
+  margin-top: 15em;
 }
 
-  #forsideBanner {
+h2, h3{
+  text-align: center;
+  margin: 2px;
+}
+
+
+  .video {
+    grid-row: 1/4;
     width: 100%;
     z-index: -1;
+    grid-column: 1/2;
+  }
+
+  #forsidebanner{
+    width: 100%;
   }
 
  .logo{
@@ -28,9 +46,11 @@ h1{
     overflow: hidden;
     margin-right: 100px;
   }
+
   /* Navbar container */
   .navbar {
-    position: absolute;
+    margin-top: 2em;
+    grid-area: header;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -94,24 +114,38 @@ h1{
     display: block;
   }
   
-  .sprog{
+.sprog{
    width: 1.6em;
    height: 1.2em;   
   }
 
-  .button {
-      border: none;
-      color: white;
-      background-color: #94382a;
-      padding: 12px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 13px;
-      margin: 2px 1px;
-      cursor: pointer;
+.button {
+   border: none;
+   color: white;
+   background-color: #94382a;
+   padding: 12px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 13px;
+   margin: 2px 1px;
+   cursor: pointer;
     }
 
 .overgang{
 width: 100%;
+}
+
+
+.calendar{
+  display: flex;
+  justify-content: center;
+}
+
+.infoboks{
+}
+
+.billet, .cal, .cafe, .tid {
+  height: 50px;
+  width: 50px;
 }
