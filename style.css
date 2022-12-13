@@ -3,8 +3,13 @@ body {
     margin: auto;
     font-family: Arial;
     font-size: 22px;
+    background-color: rgb(183, 217, 225);
   }
   
+h1{
+  text-align: center;
+}
+
   #forsideBanner {
     width: 100%;
     z-index: -1;
