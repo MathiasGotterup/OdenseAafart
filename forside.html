@@ -4,11 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="script.js" defer> </script>
 </head>
 <body>
   <div class="grid-container1">
   <div class="navbar">
-    <div class="logocontainer"><a href="forside.html"><img class="logo" src="logo.png"></a> </div>
+    <div class="logocontainer"><a href="forside.html"><img class="logo" src="billeder/logo.png"></a> </div>
     <a href="besøg">Dit Besøg</a>
     <a href="events">Events</a>
     <div class="dropdown">
@@ -23,35 +25,55 @@
     <a href="gavekort">Gavekort</a>
     <a href="årskort">Årskort</a>
     <button class="button button1">Køb Billet</button>
-    <div class="skift_sprog"> <a href="dansk.html"><img class="sprog" src="dansk.png"></a></div>
+    <div class="skift_sprog"> <a href="dansk.html"><img class="sprog" src="billeder/dansk.png"></a></div>
   </div>
   <h1>Idyllisk sejltur i centrum af Odense</h1>
   <div class="video">
     <video autoplay muted loop id="forsideBanner">
-      <source src="forsidebanner.mp4" type="video/mp4">
+      <source src="videoer/forsidebanner.mp4" type="video/mp4">
     </video>
   </div>
   <div class="overgang">
-    <img src="overgang.svg " class="overgang">
+    <img src="billeder/overgang.svg " class="overgang">
   </div>
 </div>
 
   <div class="calendar">
-    <img src="calendar_2.svg">
+    <img src="billeder/calendar_2.svg">
   </div>
   <h2>&lt; I dag d. 21. December 2002 &gt;</h2>
   <h3> Vi sejler desværre ikke i dag</h3>
 
 <div class="infoboks">
-    <a href="#" ></a><img src="billet-tyk.png" class="billet"></a>
-    <p>Køb billet</p> 
-    <img src="cal.png" class ="cal">
-    <p>Åbningstider</p>
-    <img src="cafe.png" class="cafe">
-    <p>Mad & drikke</p>
-    <img src="tid.png" class="tid">
-    <p>FAQ</p>
+    <a href="#" ></a><img src="billeder/billet-tyk.png" class="billet"></a>Køb billet
+    <img src="billeder/cal.png" class ="cal">Åbningstider
+    <img src="billeder/cafe.png" class="cafe">Mad & drikke
+    <img src="billeder/tid.png" class="tid">FAQ
   </div>
+</div>
+
+<div class="wrapper">
+  <p>Kommende Events</p>
+  <i id="left" class="fa-solid fa-angle-left"></i>
+  <div class="carousel">
+    <img src="billeder/olsmag.png" alt="img" draggable="false">
+    <img src="billeder/rosesmag.jpg" alt="img" draggable="false">>
+    <img src="billeder/olsmag2.png" alt="img" draggable="false">>
+    <img src="billeder/olsmag3.jpeg" alt="img" draggable="false">>
+    <img src="billeder/vinsmag.png" alt="img" draggable="false">>
+    <img src="billeder/hvidvinsmag.jpeg" alt="img" draggable="false">>
+    <img src="billeder/olsommer.png" alt="img" draggable="false">>
+    <img src="billeder/sannejam.jpg" alt="img" draggable="false">>
+    <img src="billeder/john.jpg" alt="img" draggable="false">>
+    <img src="billeder/kg.jpeg" alt="img" draggable="false">>
+  </div>
+  <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+<div class="video_banner">
+    <video src="videoer/båd.mp4" type="video/mp4" muted loop class="clip"></video>
+    <video src="videoer/vandcykel.mp4" type="video/mp4" muted loop class="clip"></video>
+    <video src="videoer/kano.mp4" type="video/mp4" muted loop class="clip"></video>
 </div>
 
 </body>

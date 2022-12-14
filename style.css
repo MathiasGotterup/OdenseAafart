@@ -142,10 +142,101 @@ width: 100%;
   justify-content: center;
 }
 
-.infoboks{
+.billet, .cal, .cafe, .tid {
+  height: 100px;
+  width: 100px;
 }
 
-.billet, .cal, .cafe, .tid {
-  height: 50px;
-  width: 50px;
+.infoboks{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  max-width: 1200px;
+  position: relative;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 46px;
+  background:white;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper i:first-child{
+  left: -23px;
+  display: none;
+}
+
+.wrapper i:last-child{
+  right: -23px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: pointer;
+  overflow:hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+
+.carousel img:first-child{
+  margin-left: 0;
+}
+
+.video_banner {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  width: 100%;
+}
+.video_banner video {
+  height: 560px;
+  width: 700px;
+}
+.video_banner:hover video {
+  height: 50%;
+  width: 1000px;
+}
+.video_banner video:hover {
+  height: 700px;
+  width: 700px;
+}
+
+@media screen and (max-width: 900px){
+  .carousel img{
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px){
+  .carousel img{
+    width:100%
+  }
 }
