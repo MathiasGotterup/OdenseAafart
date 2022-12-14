@@ -13,6 +13,10 @@ body {
   'main'
   'footer';
   }
+p{
+  text-align: center;
+  font-size: 32px;
+}
 
 h1{
   text-align: center;
@@ -149,9 +153,7 @@ width: 100%;
 
 .infoboks{
   background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .wrapper{
@@ -294,7 +296,6 @@ ul{
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    color: white;
     border: 0;
   }
   
