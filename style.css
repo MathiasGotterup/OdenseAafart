@@ -1,208 +1,310 @@
 /*Farvekoder*/
 farve1 {
-color: #b7d9e1;
-}
-farve2 {
-color: #78B1BF;
-}
-farve3 {
-color: #549AB4;
-}
-farve4 {
-color: #2b6d85;
-}
-farve5 {
-color: #94382a;
-}
-
-* {
-    margin: 0;
-    font-family: 'Open san', sans-serif;
-}
-
-html {
-    background-color: #2b6d85;
-}
-
-p {
-  font-size: 1em;
-  color: #000;
-  line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 0 1.25em;
-}
-
-h1 {
-  font-size: 2.5em;
+  color: #b7d9e1;
+  }
+  farve2 {
+  color: #78B1BF;
+  }
+  farve3 {
   color: #549AB4;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 0 1.25em;
-  text-align: center;
-}
-
-h2 {
-  color: #000;
-  font-size: 1.875em;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 0 1.25em;
-  line-height: 1.2;
-  text-align: center;
-}
-
-h3 {
-  font-size: 1.125em;
-  line-height: 1.2;
-  font-family: 'Open Sans', sans-serif;
-}
-
-h4 {
-  color: #000;
-  font-size: 1.25em;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 0 1.25em;
-}
-
-#headertext {
-  color: #ffffff;
-  text-shadow: 0.02em 0.02em #000;
-  margin-top: -10em;
-}
-
-.video-header{
-    background-color: yellow;
-    margin: 0;
-}
-
-.ikoner-top {
-    background-color: #ffffff;
-    margin: 21.9em 0 0 0;
-    padding: 0 19.5em 0 19.5em;
-}
-
-.ikon {
-    background-color: #b7d9e1;
-    margin: 1.875em 0 1.875em 0;
-    color: #94382a;
+  }
+  farve4 {
+  color: #2b6d85;
+  }
+  farve5 {
+  color: #94382a;
+  }
+  
+  * {
+      margin: 0;
+      font-family: 'Open san', sans-serif;
+  }
+  
+  html {
+      background-color: #2b6d85;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #000;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 1.25em;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #549AB4;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 1.25em;
     text-align: center;
-    padding: 1em;
-}
-
-.information {
-    background-color: #2b6d85;
-    margin: 4em 4.375em 0 4.375em;
-}
-
-.infobox {
+  }
+  
+  h2 {
+    color: #000;
+    font-size: 1.875em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 1.25em;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.125em;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h4 {
+    color: #000;
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 1.25em;
+  }
+  
+  #headertext {
+    color: #ffffff;
+    text-shadow: 0.02em 0.02em #000;
+    margin-top: -10em;
+  }
+  
+  .video-header{
+      background-color: yellow;
+      margin: 0;
+  }
+  
+  .ikoner-top {
+      background-color: #ffffff;
+      margin: 21.9em 0 0 0;
+      padding: 0 19.5em 0 19.5em;
+  }
+  
+  .ikon {
+      background-color: #b7d9e1;
+      margin: 1.875em 0 1.875em 0;
+      color: #94382a;
+      text-align: center;
+      padding: 1em;
+  }
+  
+  .information {
+      background-color: #2b6d85;
+      /*margin: 4em 4.375em 0 4.375em;*/
+  }
+  
+  .infobox {
+      background-color: #b7d9e1;
+      color: #2b6d85;
+      margin: 1.875em 0 1.875em 0;
+      padding: 3.125em 3.5em;
+      width: 29.3125em;
+      height: 35.46975em;
+  }
+  .infobox2 {
     background-color: #b7d9e1;
     color: #2b6d85;
     margin: 1.875em 0 1.875em 0;
     padding: 3.125em 3.5em;
     width: 29.3125em;
-    height: 35.46975em;
-}
-.infobox2 {
-  background-color: #b7d9e1;
-  color: #2b6d85;
-  margin: 1.875em 0 1.875em 0;
-  padding: 3.125em 3.5em;
-  width: 29.3125em;
-  height: 42.765625em;
-}
-.infobox-img {
-  width: 9.375em;
-  height: 9.375em;
-}
-.center {
-  text-align: center;
-}
-
-.reklamefilm {
+    height: 42.765625em;
+  }
+  .infobox-img {
+    width: 9.375em;
+    height: 9.375em;
+  }
+  .center {
     text-align: center;
-    margin-top: 5em;
-}
-
-
-.faq {
-    background-color: #ffffff;
-    margin: 5em 0 1.875em 0;
-    padding: 2em 5em 3em 5em;
-    width: 70em;
-}
-.center-box {
-  display: flex;
-  justify-content: center;
-}
-
-.collapsible {
-  background-color: #2b6d85;
-  color: white;
-  cursor: pointer;
-  padding: 1.125em;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 0.9375em;
-  font-weight: bold;
-}
-
-.active, .collapsible:hover {
-  background-color: #b7d9e1;
-  color: #2b6d85;
-  font-weight: bold;
-}
-
-.content {
-  padding: 0 1.125em;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #b7d9e1;
-  color: #2b6d85;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-    margin: 0 0 0 15em;
-    float: left;
-    padding: 0.2rem;
-    height: 100%; /* Should be removed. Only for demonstration */
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column2 {
-    margin: 0 15em 0 0;
-    float: right;
-    padding: 0.2rem;
-    height: 100%; /* Should be removed. Only for demonstration */
+  .reklamefilm {
+      text-align: center;
+      margin-top: 5em;
+      width: auto;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-/* Create three equal columns that floats next to each other */
-.ikon-column {
-    float: left;
-    width: 33.33%;
-    height: 100%; /* Should be removed. Only for demonstration */
+  .reklame {
+    width: 1080px;
   }
   
-  /* Clear floats after the columns */
-  .ikon-row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .faq {
+      background-color: #ffffff;
+      margin: 5em 0 1.875em 0;
+      padding: 2em 5em 3em 5em;
+      width: 70em;
+  }
+  .center-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .collapsible {
+    background-color: #2b6d85;
+    color: white;
+    cursor: pointer;
+    padding: 1.125em;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 0.9375em;
+    font-weight: bold;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #b7d9e1;
+    color: #2b6d85;
+    font-weight: bold;
+  }
+  
+  .content {
+    padding: 0 1.125em;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #b7d9e1;
+    color: #2b6d85;
+  }
+  
+  .column {
+      margin: 0;
+      float: left;
+      padding: 0.2rem;
+      height: 100%; 
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .column2 {
+      margin: 0;
+      float: right;
+      padding: 0.2rem;
+      height: 100%; 
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+  .ikon-column {
+      float: left;
+      width: 33.33%;
+      height: 100%; 
+    }
+ 
+    .ikon-row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+  .ikon-img {
+      width: 4.375em;
+      height: 4.375em;
   }
 
-.ikon-img {
-    width: 4.375em;
-    height: 4.375em;
-}
+  @media screen and (max-width: 1200px){
+    h1 {
+      font-size: 2.25em;
+    }
+    
+    h2 {
+      font-size: 1.625em;
+    }
+    #headertext {
+      margin-top: -8em;
+    }
+
+    .infobox {
+      padding: 2.5em 2.5em;
+      width: 22.2em;
+      height: 39.3671875em;
+    }
+
+    .infobox2 {
+      padding: 2.5em 2.5em;
+      width: 22.2em;
+      height: 53.660125em;
+    }
+
+    .ikoner-top {
+      padding: 0 25%;
+      margin: 15em 0 0 0;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    p {
+      font-size: 0.875em;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+    
+    h2 {
+      font-size: 1.375em;
+    }
+    #headertext {
+      margin-top: -6em;
+    }
+
+    .infobox {
+      margin: 1.875em 0 1.875em 0;
+      padding: 1.875em 1.25em;
+      width: 19.75em;
+      height: 35.46975em;
+    }
+
+    .infobox2 {
+      margin: 1.875em 0 1.875em 0;
+      padding: 1.875em 1.25em;
+      width: 19.75em;
+      height: 50.389625em;
+    }
+
+    .ikoner-top {
+      padding: 0 20%;
+      margin: 9.2em 0 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 741px){
+    p {
+      font-size: 0.875em;
+    }
+    
+    h1 {
+      font-size: 1.75em;
+    }
+    
+    h2 {
+      font-size: 1.375em;
+    }
+    #headertext {
+      margin-top: -4em;
+    }
+
+    .infobox {
+      margin: 1.875em 0 1.875em 0;
+      padding: 1.875em 1.25em;
+      width: 20em;
+      height: 35em;
+    }
+
+    .infobox2 {
+      margin: 1.875em 0 1.875em 0;
+      padding: 1.875em 1.25em;
+      width: 20em;
+      height: 50em;
+    }
+
+    .ikoner-top {
+      padding: 0 1em;
+      margin: 4.5em 0 0 0;
+    }
+  }
