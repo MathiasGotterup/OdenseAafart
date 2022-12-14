@@ -229,6 +229,100 @@ width: 100%;
   width: 700px;
 }
 
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+h4
+{
+    border-bottom:3px solid white;
+    padding-bottom: 0.5em;
+    font: bolder;
+
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer_grap{
+    background-color: rgb(183, 217, 225);
+}
+
+.footer{
+	background-color: rgb(43, 109, 133);
+}
+.footer-col{
+   padding: 0 1em;
+   margin-top: 3em;
+}
+.footer-col h4, h5{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 0.5em;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+	display: block;
+}
+  
+  .nyhedsbrev {
+    color: rgb(43, 109, 133);
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    color: white;
+    border: 0;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #94382a;
+  } 
+  
+  .sociale_medier {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .vinder, .tripadvisor
+  {
+    margin-top: 40px;
+  }
+
+  .persondata{
+    background-color:rgb(183, 217, 225);
+    text-align: center;
+  }
+  
+  
+
 @media screen and (max-width: 900px){
   .carousel img{
     width: calc(100% / 2);
@@ -240,3 +334,4 @@ width: 100%;
     width:100%
   }
 }
+
