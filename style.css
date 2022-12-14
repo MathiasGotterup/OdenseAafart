@@ -21,21 +21,67 @@ color: #94382a;
 }
 
 html {
-    background-color: #94382a;
+    background-color: #2b6d85;
+}
+
+p {
+  font-size: 1em;
+  color: #000;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 1.25em;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #549AB4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 1.25em;
+  text-align: center;
+}
+
+h2 {
+  color: #000;
+  font-size: 1.875em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 1.25em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.125em;
+  line-height: 1.2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  color: #000;
+  font-size: 1.25em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 1.25em;
+}
+
+#headertext {
+  color: #ffffff;
+  text-shadow: 0.02em 0.02em #000;
+  margin-top: -10em;
 }
 
 .video-header{
     background-color: yellow;
+    margin: 0;
 }
 
 .ikoner-top {
     background-color: #ffffff;
-    margin: 0 70px 0 70px;
+    margin: 21.9em 0 0 0;
+    padding: 0 19.5em 0 19.5em;
 }
 
 .ikon {
     background-color: #b7d9e1;
-    margin: 30px 0 30px 0;
+    margin: 1.875em 0 1.875em 0;
     color: #94382a;
     text-align: center;
     padding: 1em;
@@ -43,37 +89,60 @@ html {
 
 .information {
     background-color: #2b6d85;
-    margin: 0 70px 0 70px;
+    margin: 4em 4.375em 0 4.375em;
 }
 
 .infobox {
     background-color: #b7d9e1;
     color: #2b6d85;
-    margin: 30px 0 30px 0;
-    padding: 30px 70px 30px 70px;
+    margin: 1.875em 0 1.875em 0;
+    padding: 3.125em 3.5em;
+    width: 29.3125em;
+    height: 35.46975em;
+}
+.infobox2 {
+  background-color: #b7d9e1;
+  color: #2b6d85;
+  margin: 1.875em 0 1.875em 0;
+  padding: 3.125em 3.5em;
+  width: 29.3125em;
+  height: 42.765625em;
+}
+.infobox-img {
+  width: 9.375em;
+  height: 9.375em;
+}
+.center {
+  text-align: center;
 }
 
 .reklamefilm {
-    background-color: blueviolet;
+    text-align: center;
+    margin-top: 5em;
 }
+
 
 .faq {
     background-color: #ffffff;
-    margin: 30px 0px 30px 0;
-    padding: 0 18px 0 20px;
+    margin: 5em 0 1.875em 0;
+    padding: 2em 5em 3em 5em;
+    width: 70em;
 }
-
+.center-box {
+  display: flex;
+  justify-content: center;
+}
 
 .collapsible {
   background-color: #2b6d85;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 1.125em;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 0.9375em;
   font-weight: bold;
 }
 
@@ -84,8 +153,8 @@ html {
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0px;
+  padding: 0 1.125em;
+  max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #b7d9e1;
@@ -94,9 +163,8 @@ html {
 
 /* Create two equal columns that floats next to each other */
 .column {
-    margin: 0%;
+    margin: 0 0 0 15em;
     float: left;
-    width: 48%;
     padding: 0.2rem;
     height: 100%; /* Should be removed. Only for demonstration */
   }
@@ -108,9 +176,8 @@ html {
     clear: both;
   }
   .column2 {
-    margin: 0;
+    margin: 0 15em 0 0;
     float: right;
-    width: 48%;
     padding: 0.2rem;
     height: 100%; /* Should be removed. Only for demonstration */
   }
