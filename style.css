@@ -146,7 +146,7 @@ width: 100%;
   justify-content: center;
 }
 
-.billet, .cal, .cafe, .tid {
+.str {
   height: 100px;
   width: 100px;
 }
@@ -154,10 +154,21 @@ width: 100%;
 .infoboks{
   background-color: white;
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.info img {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .wrapper{
-  max-width: 1200px;
+  margin-top: 50px;
+  max-width: 100%;
   position: relative;
 }
 
@@ -191,6 +202,7 @@ width: 100%;
   scroll-behavior: smooth;
 }
 
+
 .carousel.dragging{
   cursor: grab;
   scroll-behavior: auto;
@@ -215,37 +227,24 @@ width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 33%;
-  width: 100%;
 }
 .video_banner video {
-  height: 560px;
-  width: 700px;
+width: 25%;
+margin: 30px;
 }
 .video_banner:hover video {
-  height: 50%;
-  width: 1000px;
+  width: 350px;
+
 }
 .video_banner video:hover {
-  height: 700px;
-  width: 700px;
-}
-
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+  width: 33%;
 }
 
 h4
 {
-    border-bottom:3px solid white;
-    padding-bottom: 0.5em;
-    font: bolder;
+  border-bottom:3px solid white;
+  padding-bottom: 0.5em;
+  font: bolder;
 
 }
 
