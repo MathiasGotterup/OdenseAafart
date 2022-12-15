@@ -141,6 +141,7 @@ width: 100%;
 }
 
 
+
 .calendar{
   display: flex;
   justify-content: center;
@@ -243,9 +244,7 @@ margin: 30px;
 h4
 {
   border-bottom:3px solid white;
-  padding-bottom: 0.5em;
   font: bolder;
-
 }
 
 .row{
@@ -320,8 +319,6 @@ ul{
     background-color:rgb(183, 217, 225);
     text-align: center;
   }
-  
-  
 
 @media screen and (max-width: 900px){
   .carousel img{
