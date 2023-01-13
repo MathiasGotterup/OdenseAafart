@@ -232,13 +232,10 @@ width: 100%;
 .video_banner video {
 width: 25%;
 margin: 30px;
-}
-.video_banner:hover video {
-  width: 350px;
-
+transition: 0.5s;
 }
 .video_banner video:hover {
-  width: 33%;
+  width: 40%;
 }
 
 h4
